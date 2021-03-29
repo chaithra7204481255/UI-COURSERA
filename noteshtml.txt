@@ -1,0 +1,71 @@
+https://chaithra7204481255.github.io/courseraTest/
+https://github.com/jhu-ep-coursera/fullstack-course4  --- code base
+
+! + Enter = basic html template
+
+C:\learning\courseraTest>git commit -m "my first page"
+dir
+C:\learning\courseraTest>browser-sync start --server --directory --files "*"
+opens a browser with file directory in chrome
+
+jsfiddlelink - it generates new unique url for everycode we ryt and easy to share our problem , stack overflow , codepen.io
+
+
+resources:
+----------
+https://www.w3.org/TR/html52/
+
+https://caniuse.com/  - says what features are supported by wt all browser
+
+https://validator.w3.org/nu/#textarea - to validate the html code
+
+https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html
+
+http://www.csszengarden.com/221/  -- the best to fetch css
+
+FAQ:
+---
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md
+https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/FAQ.md#q-how-to-ask-and-get-your-question-answered-a-must-read
+
+*metatag is standalone tag hence no closing tag
+*elements are of 2 types: block-level elements(starts in new line) or inline elements
+* > in html &gt;   < in html is &lt;   & in html is &amp; &copy; is for copy rights &nbsp; - allows u not to break that element when the screen shrinks
+*&quot; - is used for for quoting value and if values are safeguarded by non-modification.
+*FRAGMENT IDENTIFIERS HELPS NAVIGATION EASIER
+*element selector - element based
+*class selector, id selector - .class , #class
+*element with class selector - p.class , p,.class{} 
+*child selector - article > p {} : only direct child p tag under article element will have the styling - its true to both element selector and class selector
+*descendant selector - article [ {} : every p tag under article is affected- its true to both element selector and class selector
+*pseudo-class selector - selector:pseudo-class{} - active , hover, link , visited ,section div:nth-child(odd) 
+*inline-styling - least prefereed and used only for testing | external stylesheets - <link rel="stylesheet" href="cssfile.css"></link>
+*last declaration wins as its top to down approach, declaration merges if the class is declared twice with diffrent property
+*priority -> style="" , id,  class ;pseudo-class , # number of element
+*box model - padding - border- margin
+*border box in sizing model property is most commonly used
+*star selector *{all property here is applicable to every element} - also used to reset browser defaults settings.
+* margins when next to eachother i.e., left 40px and right 50px then overall it sums up to 90px margin in the centre 
+*margins when top and bottom of eachother i.e., top 40px and bottom 50px then larger margin wins in the centre and it will be 50px in center
+*float - to move elemts in the same line to given position, float element margin never collapse.
+section{clear : left,right or both} - jumps p tag to new line
+* mention width: 50% helps page shrink and expand
+*postive relative positioning holds both positive and negative value. value is count from top to down , from left to right
+*offsetting = mentioning top, right, bottom and left
+*media queries : each media feature resolves to true or false
+max-width 767 and min-width 922, orientation, screen, print
+*responsive design - layout adapts to size of all the devices , 12-column grid layout is utilized
+*<meta name="viewport" content="width=device-width, initial-scal=1"> - to explain app in phone to be responsive and not to zoom out by default
+viewport meta tag to turn off default mobile zooming , also help the media query to act according to its specification
+
+bootstrap:
+----------
+*container class , container fluid class - stretches to full width of the screen
+* .container -> .row -> .col (column= size md > 970px, lg 1200px, sm 768px, xs = span)
+
+
+
+
+
+
+
